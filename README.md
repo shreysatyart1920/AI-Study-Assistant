@@ -1,17 +1,31 @@
 # AI Study Assistant
 
-A production-ready Streamlit app that turns your PDFs into an interactive AI tutor using Google's Gemini API.
+AI-powered study assistant built using Python, Streamlit and Groq API.
 
 ## Features
-- **Ask Questions**: RAG-based Q&A grounded in your uploaded PDFs.
-- **Summarize**: Short, detailed, or exam-revision summaries.
-- **Generate Quiz**: MCQs, short-answer, and viva questions.
-- **Create Notes**: Concise, structured revision notes.
-- **Explain Topic**: Simple explanations with analogies.
-- **Study Planner**: Day-by-day exam prep schedule.
+- Upload PDFs/notes
+- Ask questions from uploaded material
+- Generate summaries
+- Explain difficult concepts
+- Handle large PDFs using chunking
+
+## Tech Stack
+- Python
+- Streamlit
+- Groq API
+- PDF Processing
 
 ## Installation
 
-1. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Future Improvements
+- Flashcards
+- Voice interaction
+- Personalized study plans
+
+## Author
+Shreyas Satyarthi
